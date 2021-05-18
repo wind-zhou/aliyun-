@@ -1,0 +1,37 @@
+.basicTable{
+    margin: auto;
+    padding: 10px 10px;
+    width: 70%;
+    border:6px solid #000;
+}
+
+.tableData{
+    display: block;
+    height: 110px;
+    overflow: hidden;
+    width: 100% ;
+}
+.tbody{
+    width: 100%;
+    display: table;
+}
+.items{
+    display:table;
+    width: 100%;
+}
+.itemsName{
+    color:#0fc;
+    line-height:"28px";
+    width:80%;
+}
+.itemsCity{
+    width:10%
+}
+.itemsTime{
+    width: 10%;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+}
